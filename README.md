@@ -26,7 +26,7 @@ Below are the screenshots of the web app:
 - Backend developed using Flask and the machine learning model implemented with XGBoost.
 
 ## Technologies Used
-- **Frontend**: HTML (rendered using Flask's Jinja2 templates)
+- **Frontend**: Reactjs, TailwindCSS
 - **Backend**: Python, Flask
 - **Machine Learning Model**: XGBoost
 - **Model Deployment**: joblib for model and scaler serialization

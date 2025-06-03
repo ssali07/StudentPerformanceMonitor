@@ -2,14 +2,6 @@
 
 A web-based application built using Flask that predicts the probability of a student getting placed in campus recruitment based on various features like age, gender, branch of study, internships, CGPA, and more.
 
-## Demo
-Below are the screenshots of the web app:
-
-### Main Page
-[![Main Page UI](main-page-ui.png)](https://github.com/your-username/campus-placement-prediction-app)
-
-### Prediction Page
-[![Prediction Page UI](prediction-page-ui.png)](https://github.com/your-username/campus-placement-prediction-app)
 
 
 ## Features

@@ -87,8 +87,6 @@ Submit to see the predicted placement probability.
 
 Get insights with a clean, responsive interface.
 
-🙋‍♂️ Author
-Sahin Ali
 
 🤝 Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.

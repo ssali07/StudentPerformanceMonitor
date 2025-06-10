@@ -1,6 +1,6 @@
 # 🎓 Campus Placement Prediction App
 
-A web-based application that predicts the probability of a student being placed during campus recruitment. The system is powered by a machine learning model (XGBoost) hosted on a Flask RESTful API backend, with a modern and responsive frontend built using React and TailwindCSS.
+A web-based application that predicts the probability of a student getting placed during campus recruitment. Powered by a machine learning model hosted on a Flask RESTful API backend, and presented through a clean and modern frontend built with React and TailwindCSS.
 
 ---
 
@@ -25,23 +25,70 @@ A web-based application that predicts the probability of a student being placed 
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology                            |
-|-------------|----------------------------------------|
-| **Frontend**| React.js, TailwindCSS                  |
-| **Backend** | Python, Flask (RESTful API)            |
-| **ML Model**| XGBoost                                |
-| **Serialization** | joblib (for model & scaler)     |
-| **Libraries** | NumPy, Flask, XGBoost, joblib        |
+| Layer        | Technology                           |
+|--------------|---------------------------------------|
+| **Frontend** | React.js, Vite, TailwindCSS           |
+| **Backend**  | Python, Flask (RESTful API)           |
+| **ML Model** | XGBoost                               |
+| **Libraries**| NumPy, Pandas, Flask-CORS, joblib     |
 
 ---
 
 ## 📦 Getting Started
 
-Follow these steps to run the application locally:
-
 ### 🔁 Backend (Flask API)
 
-1. **Clone the repository**  
+1. **Navigate to backend folder**  
 ```bash
-git clone https://github.com/ssali07/StudentPerformanceMonitor.git
-cd StudentPerformanceMonitor
+cd backend
+
+```
+2. Create and activate a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate       # macOS/Linux
+venv\Scripts\activate          # Windows
+```
+3. Install required packages
+```bash
+pip install -r requirements.txt
+```
+4. Run the backend
+```bash
+python run.py
+```
+The Flask server will start at http://localhost:5000
+
+🌐 Frontend (React + Vite)
+1. Navigate to frontend folder
+
+```bash
+cd ../frontend
+```
+2. Install dependencies
+
+```bash
+npm install
+```
+3. Start the development server
+
+```bash
+
+npm run dev
+```
+The React frontend will run at http://localhost:5173
+
+🧪 Usage
+Open http://localhost:5173 in your browser.
+
+Fill out the student details form.
+
+Submit to see the predicted placement probability.
+
+Get insights with a clean, responsive interface.
+
+🙋‍♂️ Author
+Sahin Ali
+
+🤝 Contributing
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
